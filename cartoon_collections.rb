@@ -1,4 +1,5 @@
 def roll_call_dwarves(names)
+  index = 1
   names.each_with_index { |dwarf, index| puts "#{dwarf}"}
 end
 
