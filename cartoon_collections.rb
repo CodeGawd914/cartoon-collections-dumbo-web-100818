@@ -5,6 +5,7 @@ end
 def summon_captain_planet(planeteer)
   calling = []
   planeteer.each { |code| calling.push("#{code.capitalize}!")}
+  calling
 end
 
 def long_planeteer_calls# code an argument here
